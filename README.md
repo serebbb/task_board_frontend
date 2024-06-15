@@ -1,13 +1,12 @@
-# React + Vite
+<h1 align="center">Привет! Это фронт ToDo листа на React + Vite</a> 
+<img src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32"/></h1>
 
-To run project:
-npm install
-npm run dev
+### To run project
+  ```sh
+  npm install
+  npm run dev
+  ```
 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?color=%2336BCF7&lines=Все+права+не+защищены)](https://git.io/typing-svg)
