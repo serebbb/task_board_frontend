@@ -6,7 +6,9 @@ export default function ToDoItem({ text }) {
     <ul>
       {text}
       <ButtonGroup aria-label="Basic example">
-        <Button variant="danger">Удалить</Button>
+        <Button variant="danger" size="sm">
+          Удалить
+        </Button>
       </ButtonGroup>
     </ul>
   );

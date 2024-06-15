@@ -1,16 +1,15 @@
 import { useState } from "react";
 import logo from "/kotik.svg";
 
-export default function MyHeader() {
-  const [now, setNow] = useState(new Date());
-  setInterval(() => setNow(new Date()), 1000);
-
+export default function MyHeader({ completedTask, allTask }) {
   return (
     <header>
       <img src={logo} alt="" height={65} />
-      <h3>React Project</h3>
 
-      <span>Текущее время: {now.toLocaleTimeString()}</span>
+      <h2>ToDo List</h2>
+      <p>
+        {completedTask}/{allTask} task completed
+      </p>
     </header>
   );
 }

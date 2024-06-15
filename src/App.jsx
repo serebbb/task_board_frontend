@@ -5,27 +5,22 @@ import { ways } from "./data";
 import { useState } from "react";
 import "bootstrap/dist/css/bootstrap.css";
 import ToDoItem from "./components/ToDoItem/ToDoItem";
+import ToDoAddItem from "./components/ToDoAddItem/ToDoAddItem";
 
 function App() {
   const [isActive, setActive] = useState(-1);
   return (
     <div>
-      <MyHeader />
+      <MyHeader completedTask={0} allTask={3} />
       <main>
-        <h1>Hello React!</h1>
+        <div>
+          <ToDoAddItem />
+        </div>
         <section>
           <ul>
             <ToDoItem text="Task1" />
-            <ToDoItem />
           </ul>
         </section>
-        {/* <section>
-          <ul>
-            {ways.map((way) => (
-              <WayItemList key={way.title} {...way} />
-            ))}
-          </ul>
-        </section> */}
         <Button isActive={isActive} onClick={() => setActive(-isActive)}>
           Click me
         </Button>
